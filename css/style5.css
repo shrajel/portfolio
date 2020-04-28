@@ -34,3 +34,9 @@ h1{
     95%{background-image:url(../photo/pondi.jfif) }
     100%{background-image:url(../photo/study.jfif) }      
 }
+@media only screen and (max-width: 1000px) {
+    .main{
+        width:50%;
+        height:1300px;
+    }
+}
