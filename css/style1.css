@@ -1,0 +1,163 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photo/skl.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+    }
+    
+    
+    .wrapper{
+        transform: translate(-50% ,-50%);
+        position: absolute;
+        top:50%;
+        left: 50%;
+    }
+    .wrapper h2{
+        padding: 0px;
+        margin: 0px;
+        color: #ffffff;
+        text-shadow: 0 2px 0 rgba(0, 0,0, 0.5);
+        font-size: 60px;
+    }
+    .wrapper a:hover{
+        background-color: darkred;
+        padding: 14px 30px;
+        border-radius: 40%;
+        transition: 0.7s ease;
+
+    }
+    .wrapper p{
+        color: #fff;
+        margin: 0px;
+        line-height: 40px;
+        font-size: 24px;
+    }
+    .wrapper a{
+        background: crimson;
+        color:#fff;
+        text-decoration: none;
+        padding: 10px 25px;;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 30px;
+    }
+   
+    span:before{
+        content:'';
+        animation: animate infinite 8s;
+    }
+    @keyframes animate{
+        0%{
+            content: 'S.M.C.I.C';
+        }
+        20%{
+            content: 'SMC';
+        }
+        40%{
+            content: 'ST MARYS';
+        }
+        80%{
+            content: 'SMCIC';
+        }
+        100%{
+            content: 'SMC';
+        }
+    }
+    .rot img{
+       
+        border-top: 5px double green;
+        border-bottom: 5px double red;
+        border-left: 5px double navy;
+        border-right: 5px double yellow;
+        width:230px;
+        height: 250px;
+        border-radius: 40%;
+        left: 5%;
+        top: 55%;
+        position: absolute;
+        animation: spin 10s linear infinite;
+
+    }
+
+    @keyframes spin{
+
+        0%{
+            transform: rotate(0deg);
+        }
+            20%{
+                transform: rotate(60deg);
+            }
+                40%{
+                    transform: rotate(120deg);
+
+        }
+        60% {
+            transform:rotate(180deg);
+        }
+        80% {
+            transform:rotate(240deg);
+        }
+        100% {
+            transform:rotate(360deg);
+        }
+    }
+    .roat img{
+
+      border-top: 5px double green;
+        border-bottom: 5px double red;
+        border-left: 5px double navy;
+        border-right: 5px double yellow;
+        width:250px;
+        height: 250px;
+        border-radius: 40%;
+        left: 5%;
+        top: 2%;
+        position: absolute;
+        animation: spin 10s linear infinite;
+}
+.photo img{
+
+    border-top: 5px double green;
+    border-bottom: 5px double red;
+    border-left: 5px double navy;
+    border-right: 5px double yellow;
+    width:230px;
+    height: 230px;
+    border-radius: 30%;
+    left: 75%;
+    top: 55%;
+    position: absolute;
+    animation: spin 10s linear infinite;
+}
+.last img{
+
+    border-top: 5px double green;
+    border-bottom: 5px double red;
+    border-left: 5px double navy;
+    border-right: 5px double yellow;
+    width:230px;
+    height: 230px;
+    border-radius: 40%;
+    left: 75%;
+    top: 2%;
+    position: absolute;
+    animation: spin 10s linear infinite;
+}
+@media only screen and (max-width: 1000px) {
+    body{
+     background-attachment: fixed;
+    }
+   .rot img{
+       top: 80%;
+   }
+ 
+     
+ .photo img {
+     top: 80%;
+
+     }
+ }

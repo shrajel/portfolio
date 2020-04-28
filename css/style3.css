@@ -1,0 +1,162 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photo/chip.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+    }
+    
+    
+    .wrapper{
+        transform: translate(-50% ,-50%);
+        position: absolute;
+        top:50%;
+        left: 50%;
+    }
+    .wrapper h2{
+        padding: 0px;
+        margin: 0px;
+        color: #ffffff;
+        text-shadow: 0 2px 0 rgba(0, 0,0, 0.5);
+        font-size: 60px;
+    }
+    .wrapper a:hover{
+        background-color: darkred;
+        padding: 14px 30px;
+        border-radius: 40%;
+        transition: 0.7s ease;
+
+    }
+    .wrapper p{
+        color: #fff;
+        margin: 0px;
+        line-height: 40px;
+        font-size: 24px;
+    }
+    .wrapper a{
+        background: burlywood;
+        color:#fff;
+        text-decoration: none;
+        padding: 10px 25px;;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 30px;
+    }
+   
+    span:before{
+        content:'';
+        animation: animate infinite 8s;
+    }
+    @keyframes animate{
+        0%{
+            content: 'Photographer.';
+        }
+        20%{
+            content: 'Coder.';
+        }
+        40%{
+            content: 'Singer.';
+        }
+        80%{
+            content: 'Guitarist.';
+        }
+        100%{
+            content: 'Footballer,';
+        }
+    }
+    .rot img{
+       
+        border-top: 5px double wheat;
+        border-bottom: 5px double white;
+        border-left: 5px double wheat;
+        border-right: 5px double white;
+        width:220px;
+        height: 220px;
+        border-radius: 30%;
+        left: 60%;
+        top: 58%;
+        position: absolute;
+        animation: spin 10s  linear infinite;
+    }
+    .soc img{
+       
+        border-top: 5px double wheat;
+        border-bottom: 5px double white;
+        border-left: 5px double wheat;
+        border-right: 5px double white;
+        width:230px;
+        height: 230px;
+        border-radius: 40%;
+        left: 60%;
+        top: 2%;
+        position: absolute;
+        animation: spin 10s  linear infinite;
+    }
+    .games img{
+       
+        border-top: 5px double wheat;
+        border-bottom: 5px double white;
+        border-left: 5px double wheat;
+        border-right: 5px double white;
+        width:250px;
+        height: 250px;
+        border-radius: 40%;
+        left: 5%;
+        top: 2%;
+        position: absolute;
+        animation: spin 10s  linear infinite;
+    }
+    .guit img{
+       
+        border-top: 5px double wheat;
+        border-bottom: 5px double white;
+        border-left: 5px double wheat;
+        border-right: 5px double white;
+        width:230px;
+        height: 250px;
+        border-radius: 40%;
+        left: 5%;
+        top: 55%;
+        position: absolute;
+        animation: spin 10s  linear infinite;
+    }
+    @keyframes spin{
+        0%{
+            transform: rotate(0deg);
+        }
+            20%{
+                transform: rotate(45deg);
+            }
+                40%{
+                    transform: rotate(90deg)
+        }
+        60%{
+            transform: rotate(135deg);
+
+        }
+
+        60% {
+            transform:rotate(180deg);
+        }
+        80%{
+            transform: rotate(225deg);
+
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+        body{
+         background-attachment: fixed;
+        }
+       .rot img{
+           top: 80%;
+       }
+     
+         
+     .guit img {
+         top: 80%;
+    
+         }
+     }
