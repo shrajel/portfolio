@@ -31,3 +31,9 @@ h1{
     100%{background-image:url(../photo/aarush.jfif) }
        
 }
+@media only screen and (max-width: 1000px) {
+    .main{
+        width:50%;
+        height:1300px;
+    }
+}
