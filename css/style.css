@@ -4,6 +4,7 @@ body{
     font-family: Century Gothic;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../photo/sp3.jpg);
 background-repeat: no-repeat;
+     overflow: hidden;
  
 }
 .de{
