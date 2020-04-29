@@ -1,6 +1,7 @@
 body{
     background-color: rgb(27,31, 34, 0.85);
-    background-image:url(../photo/back.jfif) 
+    background-image:url(../photo/back.jfif) ;
+     overflow: hidden;
 }
 h1{
     font-size: 2.1rem;
